@@ -1,0 +1,19 @@
+{
+  "name": "sm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.2",
+    "electron-rebuild": "^1.7.3"
+  },
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  }
+}
